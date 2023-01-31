@@ -21,6 +21,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         adressField.delegate = self
         passwordField.delegate = self
         
+        passwordField.keyboardType = .numberPad
+        
         loginButton.isEnabled = false
     }
 
